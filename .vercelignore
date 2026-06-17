@@ -1,6 +1,5 @@
 # Ignore source and dev files — only upload build output
 node_modules
-src
 .vscode
 .env
 *.log
