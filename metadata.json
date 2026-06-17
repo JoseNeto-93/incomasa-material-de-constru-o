@@ -1,0 +1,6 @@
+{
+  "name": "Incomasa - Materiais de Construção",
+  "description": "Site institucional premium da Incomasa. Referência em materiais para construção, reforma e acabamento com visual sofisticado, animações e efeitos modernos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

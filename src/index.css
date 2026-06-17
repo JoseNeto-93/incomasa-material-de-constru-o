@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Poppins", "Inter", sans-serif;
+  
+  /* Brand Palete defined under css variables */
+  --color-brand-blue: #0057B8;
+  --color-brand-dark: #003B7A;
+  --color-brand-accent: #FFC107;
+}
+
+/* Custom Base layer resets for maximum smoothness */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    color: #111111;
+    overflow-x: hidden;
+  }
+}
+
+/* Luxury visual helper effects */
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 200%;
+  }
+}
+
+.animate-shine {
+  animation: shine 1.6s infinite ease-out;
+}
